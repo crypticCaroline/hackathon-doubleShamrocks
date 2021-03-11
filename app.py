@@ -121,7 +121,7 @@ def upload_video(username):
 
             # creates a url for the database
             video_url = (
-                "https://res.cloudinary.com/puppyplaymates/video/upload/doubleshamrocks/"
+                "https://res.cloudinary.com/puppyplaymates/video/upload/q_auto:low/doubleshamrocks/"
                 + public_id_video + file_extension)
 
             # adds video parameters
